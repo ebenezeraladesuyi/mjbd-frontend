@@ -7,7 +7,7 @@ export default function Hero() {
       {/* ================= MAIN WRAPPER ================= */}
       <div className="flex w-full justify-center">
         <div className="w-[90%] py-12 sm:py-16 lg:py-20">
-          <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
+          <div className="gri flex flex-col-reverse md:flex-row gri-cols-1 items-center gap-10 lg:gri-cols-2 lg:gap-16">
             {/* ================= LEFT: COPY ================= */}
             <div className="relative z-10 order-2 flex flex-col lg:order-1">
               {/* Eyebrow */}
